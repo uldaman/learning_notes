@@ -7,8 +7,9 @@
 那么要想获得游戏的 Direct3DDevice, 就需要 HOOK D3D, 在游戏调用 CreateDevice() 时取得游戏创建的 Direct3DDevice.
 
 HOOK D3D 的源码网上流传的有很多, 这里也收集了两份:
-注入法: [http://yunpan.cn/cwmYIwqDQYGzX](http://yunpan.cn/cwmYIwqDQYGzX)  访问密码 9694
-劫持法: [http://yunpan.cn/cw3V3zaqMkBdF](http://yunpan.cn/cw3V3zaqMkBdF)  访问密码 c178
+
+- 注入法: [http://yunpan.cn/cwmYIwqDQYGzX](http://yunpan.cn/cwmYIwqDQYGzX)  访问密码 9694
+- 劫持法: [http://yunpan.cn/cw3V3zaqMkBdF](http://yunpan.cn/cw3V3zaqMkBdF)  访问密码 c178
 
 这两种方法在最终 HOOK 上采取的方式都一致的, 都是利用了 C++ 继承的特性, 区别只在于 dll 的注入方式.
 
